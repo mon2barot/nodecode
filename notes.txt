@@ -1,0 +1,41 @@
+GLOBALS - NO WINDOW !!!!!
+
+NodeJS has no browser window
+
+__dirname - path to current directory
+__filename - file name
+require - function to use modules (CommonJS)
+module - info about current module(file)
+process - info about env where the program is being executed
+
+MODULES 
+-code will be split into multiple modules
+-CommonJS 
+-every file is module(by default)
+-modules -encapsulated code (only share minimum)
+
+Node and NPM versions can be different.
+
+// npm - global command, comes with Node
+// npm --version
+
+// local dependency - use it only in this particular project
+// npm i <packageName>
+
+// global dependency - use it in any project
+// npm install -g <packageName>
+// sudo npm install -g <packageName> (mac)
+
+// package.json - manifest file (stores important info about project/package)
+// manual approach (create package.json in the root, create properties etc)
+// npm init(step by step, press enter to skip)
+// npm init -y (everything default)
+
+git remote add origin git@github.com:mon2barot/nodecode.git
+git branch -M main
+git push -u origin main
+
+steps I performed
+1. git init
+2. git add . (it adds everything)
+3.
